@@ -51,7 +51,7 @@ FastAPI /chat endpoint
 ### 1. Clone & configure
 
 ```bash
-git clone https://github.com/<your-username>/enterprise-rag-chatbot.git
+git clone https://github.com/Gaurav2904/enterprise-rag-chatbot.git
 cd enterprise-rag-chatbot
 cp .env.example .env
 # Fill in your Azure OpenAI credentials in .env
@@ -150,10 +150,3 @@ See `.env.example` for the full list. Key variables:
 | Answer Relevancy | 0.88 |
 | Context Precision | 0.79 |
 
-*Evaluated on 50 Q&A pairs from an internal HR policy corpus using RAGAS v0.1.9.*
-
----
-
-## License
-
-MIT
